@@ -8,4 +8,4 @@ COPY . /app/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "fb_post_sa.py"]
+CMD ["python", "update_sentiment.py"]
